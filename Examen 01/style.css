@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabeza{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px 0px 0px 0px;
+}
+.cabeza img{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 160px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.titulo_perfil{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 10px 0px;
+    color: aliceblue;
+    font-size:30px;
+}
+.texto_perfil{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3px;
+    font-size: 20px;
+    color:aliceblue;
+}
+.redes_Sociales img{
+    width: 40px;
+    height: 40px;
+    margin: 8px ;
+    border-radius: 50%;
+}
+.redes_Sociales{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px 100px 0px;
+}
+.red{
+    margin: 3px;
+}
+.titulo_proyecto{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 30px;
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+}
+.texto_proyecto{
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-image: url(img/fondo2.jpg);
+    background-position:900px px;
+    background-size: cover;
+    max-width: auto;
+    min-width: auto;
+    max-height: auto;
+    min-height: 400;
+    margin: 0px;
+    padding: 0px;
+}
+.proyectos{
+    margin: 0px;
+    background-color: #00050efa;
+    padding: 5px;
+}
+.proyecto img{
+    width: 150px;
+    height: 130px;
+    border-radius: 13% 13% 0% 0%;
+}
+.proyecto a{
+    background-color: #143963;
+    color:aliceblue ;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+
+}
+.img_texto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px;
+}
+.proyecto{
+    display: flex;
+    flex-direction: column;
+    margin: 27px;
+    padding: 0px;
+    
+}
+
+
+
